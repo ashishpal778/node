@@ -1,0 +1,16 @@
+{
+  "name": "nodetutorial",
+  "version": "1.0.0",
+  "description": "learning of node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "12"
+  ],
+  "author": "ashish",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
