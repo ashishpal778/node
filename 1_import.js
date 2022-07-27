@@ -1,4 +1,4 @@
-const app = require('./app')
+const app = require('./2_export')
 console.log (app.z())
 const arr =[1,2,3,4,5,6,7,8,9]
 
