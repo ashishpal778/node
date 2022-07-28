@@ -92,6 +92,7 @@ app.post('/signin', (req, res, next) => {
                     res.status(200).json({
                         username: user[0].name,
                         usermail: user[0].email,
+                        status :  200,
                         token: token
                     })
                 }
