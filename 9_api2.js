@@ -105,13 +105,13 @@ app.post('/signin', (req, res, next) => {
         })
 
 })
-// app.get('/signin', async (req, res) => {
-//     const data = await User.find({})
-//     try {
-//         res.send(data)
-//         console.log(data)
-//     }
-//     catch (err) {
-//         res.status(500).send(err)
-//     }
-// })
+app.get('/data', async (req, res) => {
+    const data = await User.find({})
+    try {
+        res.send(data)
+        console.log(data)
+    }
+    catch (err) {
+        res.status(500).send(err)
+    }
+})
